@@ -1,0 +1,40 @@
+.section {
+  background-image: url('../imgs/secondBackground.webp');
+  background-size: cover; /* Ajusta o tamanho da imagem para cobrir completamente a seção */
+  background-repeat: no-repeat; /* Evita a repetição da imagem */
+  background-position: center center; /* Centraliza a imagem na seção */
+  height: auto;
+  z-index: 1;
+  margin-top: 11rem;
+}
+.title {
+  color: #487cfa;
+  font-family: Urbanist;
+  font-size: 4vh;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.6vh; /* 65% */
+  text-transform: capitalize;
+  margin-top: 9.4vh;
+}
+.subtitle {
+  color: #2a254d;
+  font-family: Urbanist;
+  text-transform: capitalize;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 47px;
+  margin-top: 10vh;
+}
+.description {
+  color: #697585;
+  font-family: Urbanist;
+  font-size: 1.8vh;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3vh; /* 150% */
+  margin-top: 1.7vh;
+  margin-bottom: 0;
+  border-top: 0.6vh solid #f57005;
+}

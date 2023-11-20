@@ -1,0 +1,24 @@
+.section {
+  height: auto;
+  margin-top: 11rem;
+}
+.title {
+  color: #fa7348;
+  font-family: Urbanist;
+  font-size: 4vh;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.6vh; /* 65% */
+  text-transform: capitalize;
+  margin-top: 9.4vh;
+}
+.subtitle {
+  color: #2a254d;
+  font-family: Urbanist;
+  text-transform: capitalize;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 47px;
+  margin-top: 4vh;
+}

@@ -1,0 +1,61 @@
+.navbarBg {
+  background-color: #fff !important;
+  transition: 0.3s ease-in;
+}
+.nav {
+  background-color: #ffffff26;
+  transition: 0.3s ease-in;
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav ul li {
+  display: flex;
+  align-items: center;
+}
+.nav ul li a:hover {
+  color: #fa5448;
+  transition: 0.4s;
+}
+.nav ul li a {
+  font-family: 'Urbanist', sans-serif;
+  color: #2a254d;
+  margin: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 25px;
+  letter-spacing: 0.48px;
+  word-wrap: break-word;
+}
+.mainLogo {
+  width: 100%;
+  max-width: 20dvh; /* Defina o tamanho máximo conforme necessário */
+}
+.svg {
+  width: 100%;
+  max-width: 50px; /* Defina o tamanho máximo conforme necessário */
+}
+.signupButton {
+  font-family: 'Urbanist', sans-serif;
+  font-size: 1rem;
+  background-color: #fb4a8d;
+  color: #fff;
+  border-style: none;
+  border-radius: 6px;
+  width: 8.1rem;
+  height: 2.5rem;
+  margin-right: 2rem;
+}
+.studentArea {
+  border: 1px solid #fb4a8d !important;
+  border-radius: 10px !important;
+  padding: 7px !important;
+}
+.studentArea:hover {
+  background-color: #fb4a8d;
+  transition: 0.2s ease-in;
+  color: #fff !important;
+}
