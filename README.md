@@ -1,37 +1,38 @@
-# Mayara-website
+# English With Mayara
 
-Description of your project.
+# Objetivo do projeto
 
-## Table of Contents
+- Desenvolver um site atrativo e funcional para a professora de inglês Mayara, com o intuito de atrair novos alunos, fornecer informações sobre as aulas oferecidas e criar uma presença online atraente.
+# Layout web
+![web 1](https://github.com/GabrielDias1809/GitProfile/blob/main/home-Image-Mayara.png)
+![web 2](https://github.com/GabrielDias1809/GitProfile/blob/main/quem-sou-mayara.png)
 
-- [Overview](#overview)
-- [Dependencies](#dependencies)
-- [Installation](#installation)
-- [Usage](#usage)
-## Overview
+# Layout mobile
+![mobile 1](https://github.com/GabrielDias1809/GitProfile/blob/main/home-image-responsive-mayara.png)     ![mobile 2](https://github.com/GabrielDias1809/GitProfile/blob/main/quem-sou-responsive-mayara.png)
 
-This Project was made for an introduction on websites with React.
+# Tecnologias utilizadas
+## HTML/CSS/JavaScript:
+- Estruturação, estilização e funcionalidades do site.
+## Framework ou Bibliotecas Front-End:
+- Utilizei o frameworks Bootstrap e a biblioteca React para agilizar o desenvolvimento e garantir um design responsivo.
+## SEO (Otimização para Mecanismos de Busca):
+- Implementar boas práticas de SEO para que o site seja facilmente encontrado nos mecanismos de busca.
+# Como executar o projeto
+Implementar boas práticas de SEO para que o site seja facilmente encontrado nos mecanismos de busca.
 
+```bash
 
-## Dependencies
+# Clone o repository
+git clone https://github.com/GabrielDias1809/Mayara-website
+# Navegue para o diretório do projeto:
+cd mayara_w
+# instale as dependências:
+npm install or yarn install
 
-This project uses the following major dependencies:
+```
 
-- [Bootstrap](https://getbootstrap.com/)
-- [React-Slick](https://react-slick.neostack.com/)
-- [Font Awesome](https://fontawesome.com/)
-- [React-DOM](https://reactjs.org/docs/react-dom.html)
-- [React Router DOM](https://reactrouter.com/web/guides/quick-start)
+# Autor
 
-## Installation
+- Gabriel Almeida Dias
 
-To get started with this project, follow these steps:
-
-1. Clone the repository: `git clone https://github.com/your-username/your-repository.git`
-2. Navigate to the project directory: `cd your-repository`
-3. Install dependencies: `npm install` or `yarn install`
-
-## Usage
-
-1. Run the development server: `npm run dev` or `yarn dev`
-2. Open your browser and navigate to `http://localhost:3000` (or the specified port)
+https://www.linkedin.com/in/gabriel-dias-860496213/
