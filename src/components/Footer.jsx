@@ -16,11 +16,19 @@ const Footer = () => {
         <div className="container p-5">
           <div className="row">
             <div className="col-md-4 mt-5">
-              <img className={`${styles.svg}`} src={svg} alt="logo" />
+              <img
+                className={`${styles.svg}`}
+                width="640"
+                height="360"
+                src={svg}
+                alt="logo"
+              />
               <img
                 className={`${styles.mainLogo} ms-3`}
                 src={logo}
                 alt="logo"
+                width="640"
+                height="360"
               />
               <p className={`${styles.information}`}>seuemail@gmail.com</p>
               <p className={`${styles.information}`}>+55 99 99999-9999</p>

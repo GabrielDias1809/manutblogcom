@@ -74,8 +74,20 @@ const Header = ({ formHeader }) => {
     >
       <div className="container-fluid">
         <a className="navbar-brand" href="#home">
-          <img className={`${styles.svg} ms-5`} src={svg} alt="logo" />
-          <img className={`${styles.mainLogo} ms-3`} src={logo} alt="logo" />
+          <img
+            className={`${styles.svg} ms-5`}
+            width="640"
+            height="360"
+            src={svg}
+            alt="logo"
+          />
+          <img
+            className={`${styles.mainLogo} ms-3`}
+            width="640"
+            height="360"
+            src={logo}
+            alt="logo"
+          />
         </a>
         <button
           className="navbar-toggler"
