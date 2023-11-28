@@ -1,21 +1,19 @@
 import React, { lazy, Suspense } from 'react';
-
-// Carregamento dos componentes de forma lazy
-const LazyHome = lazy(() => import('./Home'));
-const LazyQuemSou = lazy(() => import('./QuemSou'));
-const LazyPlans = lazy(() => import('./Plans'));
-const LazyFeedbacks = lazy(() => import('./Feedbacks'));
-const LazyFooter = lazy(() => import('./Footer'));
+import Home from './Home';
+import QuemSou from './QuemSou';
+import Plans from './Plans';
+import Feedbacks from './Feedbacks';
+import Footer from './Footer';
 
 const Pages = () => {
   return (
-    <Suspense fallback={<div>Carregando...</div>}>
-      <LazyHome />
-      <LazyQuemSou />
-      <LazyPlans />
-      <LazyFeedbacks />
-      <LazyFooter />
-    </Suspense>
+    <>
+      <Home />
+      <QuemSou />
+      <Plans />
+      <Feedbacks />
+      <Footer />
+    </>
   );
 };
 
