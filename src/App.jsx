@@ -11,7 +11,7 @@ const Form = lazy(() => import('./components/Form'));
 const App = () => {
   return (
     <BrowserRouter>
-      <Suspense fallback={<div>Carregando...</div>}>
+      <Suspense fallback={<div></div>}>
         <Routes>
           <Route path="/" element={<Pages />} />
           <Route path="/formulario" element={<Form />} />
