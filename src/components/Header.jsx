@@ -36,7 +36,7 @@ const Header = ({ formHeader }) => {
     const href = event.currentTarget.getAttribute('href');
     const section = document.querySelector(href);
 
-    const topo = section.offsetTop - 100;
+    const topo = section.offsetTop - 150;
     window.scrollTo({
       top: topo,
       behavior: 'smooth',
