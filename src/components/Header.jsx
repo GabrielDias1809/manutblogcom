@@ -95,7 +95,7 @@ const Header = ({ formHeader }) => {
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
               {formHeader ? (
-                <Link className="nav-link" aria-current="page" to="/home">
+                <Link className="nav-link" aria-current="page" to="/">
                   Home
                 </Link>
               ) : (
@@ -106,7 +106,7 @@ const Header = ({ formHeader }) => {
             </li>
             <li className="nav-item">
               {formHeader ? (
-                <Link className="nav-link" aria-current="page" to="/home">
+                <Link className="nav-link" aria-current="page" to="/">
                   Quem Sou
                 </Link>
               ) : (
@@ -117,7 +117,7 @@ const Header = ({ formHeader }) => {
             </li>
             <li className="nav-item">
               {formHeader ? (
-                <Link className="nav-link" aria-current="page" to="/home">
+                <Link className="nav-link" aria-current="page" to="/">
                   Planos
                 </Link>
               ) : (
@@ -128,7 +128,7 @@ const Header = ({ formHeader }) => {
             </li>
             <li className="nav-item">
               {formHeader ? (
-                <Link className="nav-link" aria-current="page" to="/home">
+                <Link className="nav-link" aria-current="page" to="/">
                   Feedbacks
                 </Link>
               ) : (
@@ -142,7 +142,7 @@ const Header = ({ formHeader }) => {
                 <Link
                   className={`nav-link ${styles.studentArea}`}
                   aria-current="page"
-                  to="/home"
+                  to="/"
                 >
                   Área do ALuno
                 </Link>
