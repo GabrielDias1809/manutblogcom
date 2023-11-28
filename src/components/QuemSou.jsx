@@ -51,8 +51,6 @@ const quemSou = () => {
                 className="img-fluid dimensao"
                 src={hoami}
                 alt="Professora Mayara"
-                width="640"
-                height="360"
               />
             </div>
           </div>

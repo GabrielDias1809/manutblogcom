@@ -10,13 +10,7 @@ const Feedback = () => {
         <div className={styles.content}>
           <div className="row">
             <div className="col-md-4 d-flex justify-content-center">
-              <img
-                className={styles.depoiment}
-                src={img}
-                width="640"
-                height="360"
-                alt="Aluno"
-              />
+              <img className={styles.depoiment} src={img} alt="Aluno" />
             </div>
             <div className="col-md-8 mt-2">
               <p className={styles.description}>

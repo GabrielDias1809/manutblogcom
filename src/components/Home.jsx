@@ -29,8 +29,6 @@ const Home = () => {
                 className="img-fluid d-flex justify-content-center dimensao"
                 src={mayara}
                 alt="Imagem da professora Mayara"
-                width="640"
-                height="360"
               />
             </div>
           </div>
