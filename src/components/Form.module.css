@@ -1,0 +1,32 @@
+.section {
+  margin-top: 15vh;
+}
+.title {
+  color: #c148fa;
+  font-family: Urbanist;
+  font-size: 4vh;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.6vh; /* 65% */
+  text-transform: capitalize;
+  margin-top: 9.4vh;
+}
+.label {
+  font-family: Urbanist, sans-serif;
+  font-weight: 700;
+  font-size: 2vh;
+}
+.buttonForm {
+  width: 10vh;
+  margin-top: 2vh;
+  border: 0;
+  background-color: #c148fa;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 50%;
+  height: 4vh;
+  color: white;
+  font-family: 'Urbanist';
+  font-weight: 700;
+  font-size: 2vh;
+}

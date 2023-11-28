@@ -1,23 +1,20 @@
-import React from 'react';
+import React, { Suspense, lazy, useEffect, useState } from 'react';
+import Pages from './components/Pages';
+import Form from './components/Form';
 import './App.css';
-import Home from './components/Home';
-import QuemSou from './components/QuemSou';
-import Plans from './components/Plans';
-import Feedbacks from './components/Feedbacks';
-import Footer from './components/Footer';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-function App() {
+const App = () => {
   return (
-    <>
-      <Home />
-      <QuemSou />
-      <Plans />
-      <Feedbacks />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/home" element={<Pages />} />
+        <Route path="/formulario" element={<Form />} />
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;

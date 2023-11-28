@@ -2,8 +2,9 @@ import React from 'react';
 import logo from '../imgs/logo.webp';
 import svg from '../imgs/viagem.webp';
 import styles from './Header.module.css';
+import { Link } from 'react-router-dom';
 
-const Header = () => {
+const Header = ({ formHeader }) => {
   // muda a cor do Header ao dar scroll
   const [fixed, setFixed] = React.useState(false);
   const [menu, setMenu] = React.useState(false);
@@ -93,34 +94,75 @@ const Header = () => {
         <div className={`collapse navbar-collapse`} id="navbarNav">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#home">
-                Home
-              </a>
+              {formHeader ? (
+                <Link className="nav-link" aria-current="page" to="/home">
+                  Home
+                </Link>
+              ) : (
+                <a className="nav-link" aria-current="page" href="#home">
+                  Home
+                </a>
+              )}
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#hoami">
-                Quem sou
-              </a>
+              {formHeader ? (
+                <Link className="nav-link" aria-current="page" to="/home">
+                  Quem Sou
+                </Link>
+              ) : (
+                <a className="nav-link" aria-current="page" href="#hoami">
+                  Quem Sou
+                </a>
+              )}
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#plans">
-                Planos
-              </a>
+              {formHeader ? (
+                <Link className="nav-link" aria-current="page" to="/home">
+                  Planos
+                </Link>
+              ) : (
+                <a className="nav-link" aria-current="page" href="#plans">
+                  Planos
+                </a>
+              )}
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#feedbacks">
-                Feedbacks
-              </a>
+              {formHeader ? (
+                <Link className="nav-link" aria-current="page" to="/home">
+                  Feedbacks
+                </Link>
+              ) : (
+                <a className="nav-link" aria-current="page" href="#feedbacks">
+                  Feedbacks
+                </a>
+              )}
             </li>
             <li className={`nav-item`}>
-              <a className={`nav-link ${styles.studentArea}`} href="#students">
-                área do aluno
-              </a>
+              {formHeader ? (
+                <Link
+                  className={`nav-link ${styles.studentArea}`}
+                  aria-current="page"
+                  to="/home"
+                >
+                  Área do ALuno
+                </Link>
+              ) : (
+                <a
+                  className={`nav-link ${styles.studentArea}`}
+                  href="#students"
+                >
+                  área do aluno
+                </a>
+              )}
             </li>
           </ul>
           <ul className="nav-navbar me-auto mt-3">
             <li className="nav-item">
-              <button className={`${styles.signupButton}`}>Inscreva-se</button>
+              <Link to="/formulario" className="nav-link">
+                <button className={`${styles.signupButton}`}>
+                  Inscreva-se
+                </button>
+              </Link>
             </li>
           </ul>
         </div>

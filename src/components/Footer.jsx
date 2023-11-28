@@ -23,9 +23,9 @@ const Footer = () => {
                 alt="logo"
               />
               <p className={`${styles.information}`}>seuemail@gmail.com</p>
-              <p className={`${styles.information}`}>+55 21 96906-8241</p>
+              <p className={`${styles.information}`}>+55 99 99999-9999</p>
               <p className=" mt-4">
-                <a href="#">
+                <a>
                   <FontAwesomeIcon
                     icon={faWhatsapp}
                     style={{ color: '#949fb5', marginLeft: '.5rem' }}
@@ -33,21 +33,21 @@ const Footer = () => {
                   />
                 </a>
 
-                <a href="#">
+                <a>
                   <FontAwesomeIcon
                     icon={faInstagram}
                     style={{ color: '#949fb5', marginLeft: '.5rem' }}
                     size="xl"
                   />
                 </a>
-                <a href="#">
+                <a>
                   <FontAwesomeIcon
                     icon={faFacebook}
                     style={{ color: '#949fb5', marginLeft: '.5rem' }}
                     size="xl"
                   />
                 </a>
-                <a href="#">
+                <a>
                   <FontAwesomeIcon
                     icon={faLinkedin}
                     style={{ color: '#949fb5', marginLeft: '.5rem' }}
@@ -87,7 +87,10 @@ const Footer = () => {
               <h4 className={styles.subtitle}>Área do aluno</h4>
               <form className="mt-5">
                 <div className="mb-3">
-                  <label htmlFor="email" className="form-label">
+                  <label
+                    htmlFor="email"
+                    className={`form-label ${styles.label}`}
+                  >
                     Email
                   </label>
                   <input
@@ -98,7 +101,9 @@ const Footer = () => {
                   />
                 </div>
                 <div className="mb-3">
-                  <label htmlFor="cpf">CPF</label>
+                  <label htmlFor="cpf" className={styles.label}>
+                    CPF
+                  </label>
                   <input type="cpf" className={styles.inputForm} id="cpf" />
                 </div>
                 <button type="submit" className={styles.buttonForm}>
