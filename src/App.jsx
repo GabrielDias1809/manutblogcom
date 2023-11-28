@@ -1,18 +1,22 @@
-import React, { Suspense, lazy, useEffect, useState } from 'react';
-import Pages from './components/Pages';
-import Form from './components/Form';
+import React, { Suspense, lazy } from 'react';
 import './App.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
+// Carregamento dos componentes de forma lazy
+const Pages = lazy(() => import('./components/Pages'));
+const Form = lazy(() => import('./components/Form'));
+
 const App = () => {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Pages />} />
-        <Route path="/formulario" element={<Form />} />
-      </Routes>
+      <Suspense fallback={<div>Carregando...</div>}>
+        <Routes>
+          <Route path="/" element={<Pages />} />
+          <Route path="/formulario" element={<Form />} />
+        </Routes>
+      </Suspense>
     </BrowserRouter>
   );
 };
