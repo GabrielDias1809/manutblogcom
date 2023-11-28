@@ -47,7 +47,11 @@ const quemSou = () => {
               </button>
             </div>
             <div className="col-md-6 d-flex align-items-center justify-content-center">
-              <img className="img-fluid" src={hoami} alt="Professora Mayara" />
+              <img
+                className="img-fluid dimensao"
+                src={hoami}
+                alt="Professora Mayara"
+              />
             </div>
           </div>
         </div>
