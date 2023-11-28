@@ -7,6 +7,8 @@ const Card = React.memo(({ img, week, month, semester, bottom, price }) => {
       <div className="card-body">
         <div className="d-flex justify-content-center">
           <img
+            width="86"
+            height="86"
             src={img}
             className={styles.calendar}
             alt="imagem de calendario"
