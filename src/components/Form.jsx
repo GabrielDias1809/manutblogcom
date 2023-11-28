@@ -38,7 +38,7 @@ const Form = () => {
                     className="form-control"
                     id="nome"
                     aria-describedby="emailHelp"
-                    placeholder="seu-email@gmail.com"
+                    placeholder="seu nome"
                     required
                   />
                 </div>
@@ -53,6 +53,7 @@ const Form = () => {
                     type="email"
                     className="form-control"
                     id="email"
+                    placeholder="seu-email@gmail.com"
                     required
                   />
                 </div>
