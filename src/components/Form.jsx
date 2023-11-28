@@ -25,7 +25,6 @@ const Form = () => {
           <form className="mt-5 mb-5">
             <div className="row">
               <div className="col-md-6">
-                {' '}
                 <div className="mb-3">
                   <label
                     htmlFor="nome"
@@ -65,7 +64,7 @@ const Form = () => {
                     Você já estudou inglês? Se sim, onde e por quanto tempo?
                   </label>
                   <input
-                    type="textarea"
+                    type="text"
                     className="form-control"
                     id="estudo"
                     required
@@ -73,12 +72,16 @@ const Form = () => {
                 </div>
                 <div className="mb-3">
                   <label
-                    htmlFor="estudo"
+                    htmlFor="nivel"
                     className={`form-label ${styles.label}`}
                   >
                     Como você considera seu nível de inglês?
                   </label>
-                  <select class="form-select" aria-label="Nível inglês">
+                  <select
+                    class="form-select"
+                    aria-label="Nível inglês"
+                    id="nivel"
+                  >
                     <option value="iniciante" selected>
                       Iniciante
                     </option>
@@ -106,7 +109,7 @@ const Form = () => {
               <div className="col-md-6">
                 <div className="mb-3">
                   <label
-                    htmlFor="motivacao"
+                    htmlFor="horario"
                     className={`form-label ${styles.label}`}
                   >
                     Qual seria o melhor horário de aula para você?
@@ -114,19 +117,23 @@ const Form = () => {
                   <input
                     type="datetime"
                     className="form-control"
-                    id="motivacao"
+                    id="horario"
                     placeholder="Ex: 09:00"
                     required
                   />
                 </div>
                 <div className="mb-3">
                   <label
-                    htmlFor="estudo"
+                    htmlFor="horas"
                     className={`form-label ${styles.label}`}
                   >
                     Quantas horas por semana você gostaria de estudar?
                   </label>
-                  <select class="form-select" aria-label="Nível inglês">
+                  <select
+                    class="form-select"
+                    aria-label="Nível inglês"
+                    id="horas"
+                  >
                     <option value="1" selected>
                       1 hora
                     </option>
@@ -141,7 +148,11 @@ const Form = () => {
                   >
                     Qual modalidade de aula você gostaria de participar?
                   </label>
-                  <select class="form-select" aria-label="Nível inglês">
+                  <select
+                    class="form-select"
+                    aria-label="Nível inglês"
+                    id="modalidade"
+                  >
                     <option value="1" selected>
                       Aula individual
                     </option>
