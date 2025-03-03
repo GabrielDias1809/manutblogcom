@@ -6,7 +6,6 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Feedback from './Feedback';
 import React, { useEffect, useState } from "react";
-import { fetchNews } from "../services/newsService";
 
 
 
@@ -21,16 +20,11 @@ const Feedbacks = ({category = "general", country = "br", limit = 10}) => {
     autoplaySpeed:3500,
     pauseOnHover:true,
   };
-
-  const [news, setNews] = useState([]);
-  useEffect(() => {
-    async function loadNews() {
-      const articles = await fetchNews(limit, country); // ✅ Adicionando o limit
-      setNews(articles);
-    }
-    loadNews();
-  }, [category, country, limit]);
   
+  const news = [
+{img: '', title: "", description:''}
+
+  ]
   
 
   return (
