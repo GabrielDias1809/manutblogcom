@@ -17,7 +17,7 @@ O **ManutBlogCom** busca reunir informações confiáveis e bem estruturadas par
 ## ⚙️ **Tecnologias Utilizadas**
 Este projeto foi desenvolvido utilizando:
 - 🟢 **React.js** – framework front-end para a interface do blog.
-- 🎨 **CSS/Tailwind** – estilização moderna e responsiva.
+- 🎨 **CSS** – estilização moderna e responsiva.
 - 📰 **News API** – integração para exibir notícias atualizadas sobre geopolítica e defesa.
 - 🔄 **Git & GitHub** – versionamento do código e colaboração.
 
