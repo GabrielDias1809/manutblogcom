@@ -1,38 +1,32 @@
-# English With Mayara
+# 🏛️ ManutBlogCom
 
-# Objetivo do projeto
+📡 **ManutBlogCom** é um blog dedicado ao **curso de manutenção de comunicações**, abordando temas como **História, Liderança e Atualidades Militares**. O objetivo do projeto é fornecer conteúdos educativos e relevantes para profissionais e estudantes da área.
 
-- Desenvolver um site atrativo e funcional para a professora de inglês Mayara, com o intuito de atrair novos alunos, fornecer informações sobre as aulas oferecidas e criar uma presença online atraente.
-# Layout web
-![web 1](https://github.com/GabrielDias1809/GitProfile/blob/main/home-Image-Mayara.png)
-![web 2](https://github.com/GabrielDias1809/GitProfile/blob/main/quem-sou-mayara.png)
+---
 
-# Layout mobile
-![mobile 1](https://github.com/GabrielDias1809/GitProfile/blob/main/home-image-responsive-mayara.png)     ![mobile 2](https://github.com/GabrielDias1809/GitProfile/blob/main/quem-sou-responsive-mayara.png)
+## 📌 **Sobre o Projeto**
+Este blog foi criado para compartilhar conhecimentos essenciais sobre:
+- 🏰 **História Militar** – principais eventos, conflitos e evoluções tecnológicas.
+- 🎖 **Liderança** – desenvolvimento de habilidades para liderar equipes em ambientes operacionais.
+- 🌎 **Atualidades Militares** – novidades e avanços no setor de comunicações e defesa.
 
-# Tecnologias utilizadas
-## HTML/CSS/JavaScript:
-- Estruturação, estilização e funcionalidades do site.
-## Framework ou Bibliotecas Front-End:
-- Utilizei o frameworks Bootstrap e a biblioteca React para agilizar o desenvolvimento e garantir um design responsivo.
-## SEO (Otimização para Mecanismos de Busca):
-- Implementar boas práticas de SEO para que o site seja facilmente encontrado nos mecanismos de busca.
-# Como executar o projeto
-Implementar boas práticas de SEO para que o site seja facilmente encontrado nos mecanismos de busca.
+O **ManutBlogCom** busca reunir informações confiáveis e bem estruturadas para facilitar o aprendizado e promover discussões sobre os temas abordados.
 
+---
+
+## ⚙️ **Tecnologias Utilizadas**
+Este projeto foi desenvolvido utilizando:
+- 🟢 **React.js** – framework front-end para a interface do blog.
+- 🎨 **CSS** – estilização moderna e responsiva.
+- 📰 **News API** – integração para exibir notícias atualizadas sobre geopolítica e defesa.
+- 🔄 **Git & GitHub** – versionamento do código e colaboração.
+
+---
+
+## 🚀 **Instalação e Configuração**
+Caso queira rodar o projeto localmente, siga os passos:
+
+### 1️⃣ **Clone este repositório**
 ```bash
-
-# Clone o repository
-git clone https://github.com/GabrielDias1809/Mayara-website
-# Navegue para o diretório do projeto:
-cd mayara_w
-# instale as dependências:
-npm install or yarn install
-
-```
-
-# Autor
-
-- Gabriel Almeida Dias
-
-https://www.linkedin.com/in/gabriel-dias-860496213/
+git clone https://github.com/GabrielDias1809/manutblogcom.git
+cd manutblogcom
