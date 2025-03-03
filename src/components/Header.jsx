@@ -10,7 +10,7 @@ const Header = ({ formHeader }) => {
   const [menu, setMenu] = React.useState(false);
   const [botaoDesativado, setBotaoDesativado] = React.useState(false);
   const changeNavbarFixed = () => {
-    if (window.scrollY >= 100) {
+    if (window.scrollY >= 200) {
       setFixed(true);
     } else {
       setFixed(false);
