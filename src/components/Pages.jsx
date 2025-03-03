@@ -14,7 +14,7 @@ const Pages = () => {
       <QuemSou />
       <Plans />
       <Lideranca />
-      <Feedbacks category='war' country='br' limit={10} />
+      <Feedbacks category='general' country='br' limit={10} />
       <Atualidades />
       <Footer />
     </>

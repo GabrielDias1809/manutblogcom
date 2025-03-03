@@ -10,7 +10,7 @@ import { fetchNews } from "../services/newsService";
 
 
 
-const Feedbacks = ({category = "politics", country = "br", limit = 10}) => {
+const Feedbacks = ({category = "general", country = "br", limit = 10}) => {
   const settings = {
     dots: true,
     infinite: true,
