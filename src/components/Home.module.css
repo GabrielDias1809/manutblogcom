@@ -1,41 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 .section {
-  background-image: url('../imgs/homeBackground.webp');
-  background-size: cover; /* Ajusta o tamanho da imagem para cobrir completamente a seção */
+  background-image: url('../imgs/background.png');
+
   background-repeat: no-repeat; /* Evita a repetição da imagem */
   background-position: center center; /* Centraliza a imagem na seção */
   height: auto;
   z-index: 1;
 }
 .welcome {
-  color: #fb4a8d;
-  font-family: Water Brush;
-  font-size: 11vh;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 13vh; /* 116.822% */
-  letter-spacing: -2.141px;
-  text-transform: capitalize;
-  margin-top: 11rem;
-  margin-bottom: 0;
-}
-.realEnglish {
-  color: #2a254d;
-  font-family: Urbanist;
-  font-size: 7.2vh;
+  color: #F9F8F8;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5vh;
   font-style: normal;
   font-weight: 700;
-  line-height: 7.2vh; /* 100% */
-  letter-spacing: -1.4px;
+  line-height: 7vh;
+  letter-spacing: -2.141px;
   text-transform: capitalize;
-}
-.obs {
-  color: #2a254d;
-  font-family: Urbanist;
-  font-size: 2vh;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 3vh; /* 150% */
-  margin-top: 4vh;
+  margin-top: 42rem;
+  margin-bottom: 12rem;
+  text-align: center;
+  position: relative;
+  top: -29%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .signupButton {
   font-family: 'Urbanist', sans-serif;
@@ -50,10 +39,20 @@
   height: 5.8vh;
   margin-right: 2rem;
   margin-top: 2.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
-.imgHome {
-  width: 80%;
-  height: auto;
-  margin-top: 23vh;
-  z-index: 1;
+.obs{
+  color: #F9F8F8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    font-style: normal;
+    font-weight: 500;
+    position: relative;
+    top: -44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 23%;
 }

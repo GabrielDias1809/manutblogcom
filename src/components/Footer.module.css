@@ -9,68 +9,12 @@
   bottom: 0;
 }
 .footer {
-  background-color: #3e2e45;
+  background-color: #044b4a;
   height: 8vh;
-  border-top: 10px solid #3a2c41;
-}
-.mainLogo {
-  width: 100%;
-  height: 5vh;
-  max-width: 20dvh; /* Defina o tamanho máximo conforme necessário */
-}
-.svg {
-  width: 100%;
-  height: 6vh;
-  max-width: 50px; /* Defina o tamanho máximo conforme necessário */
-}
-.information {
-  width: 50%;
-  color: #ffffff91;
-  font-family: Urbanist;
-  font-size: 2vh;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 3vh; /* 150% */
-  margin-top: 3vh;
-  text-decoration: none;
-}
-.subtitle {
+  border-top: 10px solid #023535;
   color: #fff;
-  font-family: Urbanist;
-  font-size: 3vh;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 2.6vh; /* 65% */
-  text-transform: capitalize;
-}
-.label {
-  font-family: 'Urbanist';
-  font-weight: 700;
-  font-size: 2vh;
-  color: #ffffff73 !important;
-}
-.inputForm {
+  align-items: center;
+  justify-content: center;
   display: flex;
-  border: 0;
-  background-color: transparent;
-  border-bottom: 2px solid #fff;
-  width: 100%;
-  outline: none;
-  color: white;
-  font-family: 'Urbanist';
-  font-weight: 600;
-}
-.buttonForm {
-  width: 10vh;
-  margin-top: 2vh;
-  border: 0;
-  background-color: #fb4a8d;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  width: 30%;
-  height: 4vh;
-  color: white;
-  font-family: 'Urbanist';
-  font-weight: 700;
-  font-size: 2vh;
+  margin-top: 4vh;
 }

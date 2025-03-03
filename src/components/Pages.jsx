@@ -4,6 +4,8 @@ import QuemSou from './QuemSou';
 import Plans from './Plans';
 import Feedbacks from './Feedbacks';
 import Footer from './Footer';
+import Lideranca from './Lideranca'
+import Atualidades from './Atualidades'
 
 const Pages = () => {
   return (
@@ -11,7 +13,9 @@ const Pages = () => {
       <Home />
       <QuemSou />
       <Plans />
-      <Feedbacks />
+      <Lideranca />
+      <Feedbacks category='war' country='br' limit={10} />
+      <Atualidades />
       <Footer />
     </>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from '../imgs/logo.webp';
-import svg from '../imgs/viagem.webp';
+import svg from '../imgs/logocom.png';
+import svgazul from '../imgs/logozaul.png'
 import styles from './Header.module.css';
 import { Link } from 'react-router-dom';
 
@@ -36,7 +36,7 @@ const Header = ({ formHeader }) => {
     const href = event.currentTarget.getAttribute('href');
     const section = document.querySelector(href);
 
-    const topo = section.offsetTop - 100;
+    const topo = section.offsetTop - 150;
     window.scrollTo({
       top: topo,
       behavior: 'smooth',
@@ -74,11 +74,10 @@ const Header = ({ formHeader }) => {
     >
       <div className="container-fluid">
         <a className="navbar-brand" href="#home">
-          <img className={`${styles.svg} ms-5`} src={svg} alt="logo" />
-          <img className={`${styles.mainLogo} ms-3`} src={logo} alt="logo" />
+          <img className={`${styles.svg} ms-5`} src={`${fixed || menu ? svgazul : svg}`} alt="logo" />
         </a>
         <button
-          className="navbar-toggler"
+          className={"navbar-toggler"}
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -92,77 +91,71 @@ const Header = ({ formHeader }) => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className={`collapse navbar-collapse`} id="navbarNav">
-          <ul className="navbar-nav mx-auto">
+          <ul className="navbar-nav me-3">
             <li className="nav-item">
               {formHeader ? (
                 <Link className="nav-link" aria-current="page" to="/">
-                  Home
+                 História
                 </Link>
               ) : (
-                <a className="nav-link" aria-current="page" href="#home">
-                  Home
-                </a>
-              )}
-            </li>
-            <li className="nav-item">
-              {formHeader ? (
-                <Link className="nav-link" aria-current="page" to="/">
-                  Quem Sou
-                </Link>
-              ) : (
-                <a className="nav-link" aria-current="page" href="#hoami">
-                  Quem Sou
+                <a className={`${
+                  fixed || menu ? styles.navlinktoggle : 'nav-link'
+                }`} aria-current="page" href="#hoami">
+                  História
                 </a>
               )}
             </li>
             <li className="nav-item">
               {formHeader ? (
                 <Link className="nav-link" aria-current="page" to="/">
-                  Planos
+                 QTS
                 </Link>
               ) : (
-                <a className="nav-link" aria-current="page" href="#plans">
-                  Planos
+                <a className={`${
+                  fixed || menu ? styles.navlinktoggle : 'nav-link'
+                }`} aria-current="page" href="#qts">
+                  QTS
                 </a>
               )}
             </li>
             <li className="nav-item">
               {formHeader ? (
                 <Link className="nav-link" aria-current="page" to="/">
-                  Feedbacks
+                 Liderança
                 </Link>
               ) : (
-                <a className="nav-link" aria-current="page" href="#feedbacks">
-                  Feedbacks
+                <a className={`${
+                  fixed || menu ? styles.navlinktoggle : 'nav-link'
+                }`} aria-current="page" href="#lideranca">
+                 Liderança
                 </a>
               )}
             </li>
-            <li className={`nav-item`}>
-              {formHeader ? (
-                <Link
-                  className={`nav-link ${styles.studentArea}`}
-                  aria-current="page"
-                  to="/"
-                >
-                  Área do ALuno
-                </Link>
-              ) : (
-                <a
-                  className={`nav-link ${styles.studentArea}`}
-                  href="#students"
-                >
-                  área do aluno
-                </a>
-              )}
-            </li>
-          </ul>
-          <ul className="nav-navbar me-auto mt-3">
             <li className="nav-item">
-              <Link to="/formulario" className="nav-link">
-                <button className={`${styles.signupButton}`}>
-                  Inscreva-se
-                </button>
-              </Link>
+              {formHeader ? (
+                <Link className="nav-link" aria-current="page" to="/">
+                 Notícias
+                </Link>
+              ) : (
+                <a className={`${
+                  fixed || menu ? styles.navlinktoggle : 'nav-link'
+                }`} aria-current="page" href="#noticias">
+                 Notícias
+                </a>
+              )}
+            </li>
+            <li className="nav-item">
+              {formHeader ? (
+                <Link className="nav-link" aria-current="page" to="/">
+                  Atualidades
+                </Link>
+              ) : (
+                <a className={`${
+                  fixed || menu ? styles.navlinktoggle : 'nav-link'
+                }`} aria-current="page" href="#atualidades">
+                  Atualidades
+                </a>
+              )}
             </li>
           </ul>
         </div>

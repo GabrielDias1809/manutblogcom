@@ -1,0 +1,78 @@
+.section{
+    height: auto;
+    margin-top: 11rem;
+  }
+  .subtitle{
+    color: #3993AA;
+    font-family: Urbanist;
+    font-size: 6vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.6vh; /* 65% */
+    text-transform: capitalize;
+    margin-bottom: 5rem;
+  }
+  .mayara{
+    color: #FF7A00;
+    font-family: Water brush;
+    font-size: 8.8vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13vh; /* 116.822% */
+    letter-spacing: -2.141px;
+    text-transform: capitalize;
+    margin-top: 1.7vh;
+    margin-bottom: 0;
+  }
+  .description{
+    color: #697585;
+    font-family: Urbanist;
+    font-size: 2.3vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3vh; /* 150% */
+    margin-top: 1.7vh;
+    margin-bottom: 4vh;
+  }
+  .classes{
+    color: #2A254D;
+      font-family: Urbanist;
+      font-size: 2vh;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 2.6vh;
+      margin-top: -6.3vh;
+      margin-left: 2.7vh;
+  }
+  .indclasses{
+    color: #697585;
+    font-family: Urbanist;
+    font-size: 1.2vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.6vh;
+    margin-top: 1vh;
+    position: relative;
+    left: 3vh;
+  }
+  .imgblog{
+    border-radius: 10%;
+    width: 80%;
+  }
+  @media (max-width: 768px) {
+    .description{
+      color: #697585;
+      font-family: Urbanist;
+      font-size: 2vh;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 3vh; /* 150% */
+      margin-top: 1.7vh;
+    }
+  
+    .imgblog{
+      border-radius: 10%;
+      width: 70%;
+      margin-top: 2rem;
+    }
+  }
